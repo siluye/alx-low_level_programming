@@ -19,11 +19,11 @@ int main(void)
 		{
 			printf(" FizzBuzz");
 		}
-		else if (n % 3 == 0)
+		else if (num % 3 == 0)
 		{
 			printf(" Fizz");
 		}
-		else if (n % 5 == 0)
+		else if (num % 5 == 0)
 		{
 			printf(" Buzz");
 		}
