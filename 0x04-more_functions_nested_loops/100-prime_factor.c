@@ -26,6 +26,7 @@ int main(void)
 			n /= m;
 		}
 	}
+	}
 	printf("%ld\n", n);
 
 	return (0);
