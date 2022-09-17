@@ -18,15 +18,16 @@ int main(void)
 			n /= 2;
 			continue;
 		}
-
-	for (m = 3; m < n / 2; m += 2)
-	{
-		if (n % m == 0)
+		
+		for (m = 3; m < n / 2; m += 2)
 		{
-			n /= m;
+			if (n % m == 0)
+			{
+				n /= m;
+			}
 		}
-	}
-	printf("%ld\n", n);
+		printf("%ld\n", n);
 
-	return (0);
+		return (0);
+	}
 }
