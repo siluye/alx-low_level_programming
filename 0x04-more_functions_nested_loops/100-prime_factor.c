@@ -8,16 +8,22 @@
 
 int main(void)
 {
-	long int n, m;
-	n = 612852475143;
+	long n = 612852475143;
+	int m;
 
+	while (m++ < n / 2)
+	{
+		if (n % m == 0)
+		{
+			n /= 2;
+			continue;
+		}
 	
-	for (m = 2; m <= n; m++)
+	for (m = 3; m < n / 2; m += 2)
 	{
 		if (n % m == 0)
 		{
 			n /= m;
-			m--;
 		}
 	}
 	printf("%ld\n", n);
