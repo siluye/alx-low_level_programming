@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 		{
 			z = (x / coins[w]);
 			y += z;
-			x -= coins[w * z;
+			x -= coins[w] * z;
 		}
 		w++;
 	}
