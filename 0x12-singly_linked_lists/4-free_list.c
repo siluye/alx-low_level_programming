@@ -11,7 +11,7 @@ void free_list(list_t *head)
 {
 	list_t *current_node;
 
-	current_node - head;
+	current_node = head;
 
 	while (current_node != NULL)
 	{
